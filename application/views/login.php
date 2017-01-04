@@ -8,10 +8,11 @@
     <title>Login Page</title>
 
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+   <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
 
     <!-- Custom Stylesheet by Ashish Chawla -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet">
+
 
     <!-- Font Awesome Icons -->
   <script src="https://use.fontawesome.com/0fd0e3f0a4.js"></script>
@@ -65,6 +66,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+     <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
   </body>
 </html>
